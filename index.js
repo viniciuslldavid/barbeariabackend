@@ -4,7 +4,7 @@ const app = express();
 
 // Configurar CORS para permitir requisições de http://localhost:3000
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://barbeariafrontend.vercel.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
 }));
